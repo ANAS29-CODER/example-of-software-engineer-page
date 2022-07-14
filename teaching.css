@@ -1,0 +1,595 @@
+*{
+    box-sizing: border-box;
+    font-family: "Lucida Console", "Roboto", monospace;
+
+}
+
+.he{
+    height: auto;
+    background-color: black;
+    width: 100%;
+}
+.he .containers{
+  padding: 5px 0px;
+    height: auto;
+    display: inline-block;
+    width: 100%;
+    
+   
+}
+.he .pro{
+   padding-left: 112px;
+   font-weight: bold;
+}
+
+
+.pro a{
+    color: #e0d4d4f0;
+    float: left;
+    font-size: 20px;
+    padding-top: 15px;
+    padding-left: 14px;
+    border: none;
+    text-decoration: none;
+}
+.pro a:hover{
+    color: #e0d4d4f0;
+    border: none;
+    text-decoration: none;
+}
+
+.he .navbar{
+    padding-top: 13px;
+  
+    font-size: 17px;
+}
+ .nav-item .nav-link{
+     color: #e0d4d4f0;
+     padding-left: 5px;
+     margin-right: 10px;
+     font-size: 15px;
+     font-weight: bold;
+ }
+ .nav-item .nav-link:hover{
+     color: rgb(25, 25, 223);
+     border-bottom: 3px solid rgb(25, 25, 223);
+ }
+.navbar-nav .active>.nav-link{
+    color: rgb(25, 25, 223);
+    border-bottom: 3px solid rgb(25, 25, 223);
+}
+
+
+ .navbar-toggler {
+    color: rgba(255,255,255,.5);
+    border-color: rgba(255,255,255,.1);
+}
+
+@media screen and (max-width:991px){
+    .he #jhg{      
+        display: none;       
+    }
+  
+    .he{
+        width: 100%;
+        margin: 0%;
+        padding: 0%;
+    }
+}
+@media screen and (max-width:767px){
+    .he{
+        position: relative;
+        height: auto;   display: inline-block;
+    }
+    .he nav{
+        width: 100%;
+        margin: 0%;
+        text-align: justify;
+        display:flex;
+    }
+   .he .na{
+        float: none !important;
+        position: relative;
+     height: auto;
+            width: 100% !important;
+  
+            right: 0%;
+            left: 0%;
+        
+    }
+    .he .containers {
+ 
+    height: auto;
+    padding-bottom: 15px;
+    }
+    .na .navbar-toggler{
+        position: absolute;
+        top: 3%;
+        right: 0%;
+       
+    }
+    .na .navbar-nav{
+        padding-top: 35px;
+    }
+    .na .navbar-nav li{
+        background: #908686;
+        border-bottom: 1px solid snow;
+        word-break: break-all;
+    }
+}
+
+/* End of he*/
+
+
+.ba{
+  max-height:700px ;
+    width: 100%;
+    background-image: url("https://www.milessebesta.com/wp-content/uploads/2019/07/mahot-cohort.jpg");
+    background-size: cover;
+
+}
+.ba .bas{
+    height:700px ;
+    width: 100%;
+      background-color: rgb(0 0 0);
+    opacity: .75;
+}
+.ba .bas .basd{
+    height: auto;
+    margin-left: 72px;
+    padding-top: 200px;
+    max-width: 673px;
+}
+.ba .bas h2{
+    color: white;
+
+}
+@media screen and (max-width:442px){
+    .ba .bas .basd{
+     
+        margin-left: 30px;
+          max-width: 500px;
+          word-break:normal;
+    }
+    .ba .bas h2{
+    font-size: 20px;
+    
+    }
+}
+
+/* End of ba*/
+
+
+.b1{
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom:60px;
+    text-align: center;
+}
+@media screen and (max-width:553px){
+    .b1 h2{
+        font-size: 24px;
+
+    }
+    .b1 h5{
+        font-size: 16px;
+
+    }
+}
+@media screen and (max-width:327px){
+    .b1 h2{
+        font-size: 16px;
+        font-weight: bold;
+
+    }
+    .b1 h5{
+        font-size: 12px;  font-weight: bold;
+
+    }
+}
+
+/* End of b1*/
+
+.b2{
+    max-height: 5000px;
+    width: 100%;
+    padding-bottom: 50px;
+}
+.b2 .container{
+    max-height: 5000px;
+    width: 100%;
+    padding-bottom: 20px; text-align: center;
+}
+.b2 .container .row{
+    text-align: center;height: auto;
+} 
+.b2 p{
+    line-height: 27px;
+}
+.b2 h3{
+    padding-top: 26px;
+}
+
+@media screen and (max-width:247px){
+
+.b2 div h3{
+    font-size: 18px;
+}
+.b2 div p{
+    font-size: 11px;
+    line-height: 20px;
+}
+}
+
+@media screen and (max-width:160px){
+
+    .b2 div h3{
+        font-size: 14px;
+    }
+    .b2 div p{
+        font-size: 10px;
+        line-height: 10px;
+       
+    }
+    }
+    
+    /* End of b2*/
+
+.b3{
+    height: auto;
+    width: 100%;
+    background-image: url("https://www.milessebesta.com/wp-content/uploads/2019/07/classroom-image.jpg");
+    background-size: cover;
+}
+.b3 .nb{
+    height: 100%;
+    width: 100%;
+    background-color: #06101d;
+    opacity: .93;
+    text-align: center;
+}
+.b3 .nb h2{
+    color: white;
+    font-weight: bolder;
+    max-width: 577px;
+    margin: 0% auto;
+    padding-top: 109px;    padding-bottom: 38px;
+  
+    
+}
+
+.b3 .nb .container{
+    height: auto;
+    padding-top: 30px;
+    width: 100%;
+    padding-top: 100px;
+    text-align: center;
+}
+.b3 .nb .container .row{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.b3 .nb .container .row div{
+    text-align: center;
+    color: white;
+    max-width: 100%;
+    padding-bottom: 90px;
+    height: auto;
+}
+.b3 .nb .container .row div h3{
+    color: white;
+    font-weight: bold;
+    padding-bottom: 18px;
+}
+.b3 .nb .container .row div p{
+    opacity: .8;
+}
+
+@media screen and (max-width:250px){
+
+
+    .b3 .nb .container .row div h3{
+        font-size: 20px;
+    }
+
+    .b3 .nb .container .row div p{
+        font-size: 12px;
+    }
+
+    .b3 .nb h2{
+        font-size:18px ;
+      
+        
+    }
+}
+
+ /* End of b3*/
+
+
+ .b4{
+     width: 100%;
+     height: auto;
+ }
+ .b4 .container{
+
+    height: auto;
+    width: 100%;
+    padding: 90px 0 90px 0;
+    text-align: center;
+ }
+ .b4 .container .row{
+     height: auto;
+     padding-top: 20px;
+     max-width: 100%;
+ }
+ .b4 .container .row div{
+ 
+    text-align: center;
+    max-width: 100%;
+    margin: 0% auto;
+ }
+ .b4 .container .row div img{
+     margin: 0% auto;
+     max-width: 80%;
+     max-height: 50%;
+ }
+
+ /* End of b4*/
+
+ .b5{
+     height: auto;
+     width: 100%;
+     background-color: #54595f;
+ }
+
+ .b5 .container{
+   height: auto;
+   padding-top: 90px;
+   padding-bottom: 70px;
+   text-align: center;
+ }
+ .b5 .container .row{
+     height: auto;
+     width: 100%;
+     margin: 0% auto;
+ }
+ .b5 .container .row div{
+     height: auto;
+    max-width: 100%;
+     margin: 0% auto;
+     color: white;
+     text-align: start;
+ }
+ .b5 .container .row div img{
+     width: 100%;
+     max-height: 100%;
+     
+     
+ }
+ .b5 .container .row div  p{
+     font-size: 17px;
+     line-height: 31px;
+ }
+
+@media screen and (max-width:470px) {
+    .b5 .container .row div p:not(:last-child){
+        font-size: 14px;
+        line-height: 25px;
+        text-align: center;
+    }
+   
+}
+@media screen and (max-width:270px) {
+    .b5 .container .row div p:last-child{
+        font-size: 12px;
+      
+    }
+    .b5 .container .row div h4{
+        font-size: 17px;
+        font-weight: bold;
+    }
+}
+
+ /* End of b5*/
+ .b6{
+    height: auto;
+    width: 100%;
+    background-color: #1a1a1a;
+    text-align: center;
+}
+
+.b6 .container{
+  height: auto;
+  padding-top: 90px;
+  padding-bottom: 70px;
+  text-align: center;
+  width: 100%;
+  background-color: black;
+}
+.b6 h1{
+    color: white;
+    margin: 0% auto;
+    padding-top: 100px;
+    padding-bottom: 46px;
+    font-size: 50px;
+}
+.b6 .carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    max-height: 450px;}
+#b6s{
+    height: 450px;
+}
+
+#b6s .carousel-item-next, .carousel-item-prev, .carousel-item.active{
+max-height: 1000px;
+    max-width: 58%;
+    margin: 0% 21%;
+    text-align: center;
+   
+}
+@media screen and (min-width:768px)and (max-width:991px){
+    #b6s .carousel-item-next, .carousel-item-prev, .carousel-item.active{
+      
+            max-width: 84%;
+            margin: 0% 9%;
+           
+           
+        }
+}
+@media screen and  (max-width:767px){
+    #b6s .carousel-item-next, .carousel-item-prev, .carousel-item.active{
+      
+        max-height: 1031px;
+        max-width: 101%;
+        margin: 0% 0%;
+        text-align: center;
+          
+           
+        }
+        .carousel-indicators {
+            padding-bottom: 50px;}
+}
+@media screen and  (max-width:480px){
+    #b6s .carousel-item-next, .carousel-item-prev, .carousel-item.active{
+      
+        min-height: 1031px;
+        min-width: 150%;
+           
+        }
+
+        #b6s .carousel-item-next, .carousel-item-prev, .carousel-item.active img{
+            min-height: 500px;
+        }
+}
+@media screen and  (min-width:481px) and (max-width:574px){
+    #b6s .carousel-item-next, .carousel-item-prev, .carousel-item.active img{
+        max-height: 600px;
+    }
+}
+@media screen and (max-width:243px){
+    .b6 h1 {
+      
+        font-size: 40px !important;
+    }
+}
+@media screen and (max-width:196px){
+    .b6 h1 {
+      
+        font-size: 34px !important;
+    }
+}
+
+/* End of b6*/
+
+
+
+.s13{
+    height: auto;
+    width: 100%;
+    background-color: #ededed;
+    text-align: center;
+    padding-bottom: 70px;
+}
+.s13 .s13s1{
+    margin: 0% auto;
+    padding-top: 100px;
+    text-align: center;
+    max-width: 570px;
+}
+.s13 .s13s1 h1{
+    font-size: 45px;
+    padding-bottom: 10px;
+}
+.s13 #sa{
+    font-size: 45px;padding-bottom: 10px; padding-top: 20px;
+}
+
+.s13 .s13s1 button{
+    padding: 20px 40px;
+    color: white;
+    background-color: #d6a664;
+    font-weight: bold;
+    border-radius: 0px 0px 0px 0px;
+    border: none;
+    font-size: 20px; 
+    transition: background-color .35s;
+}
+.s13 .s13s1 button:hover{
+    background-color:#b37a2b ;
+}
+@media screen and (max-width:353px){
+    .s13 .s13s1 h1{
+        font-size: 36px;
+    }
+}
+@media screen and (max-width:289px){
+    .s13 .s13s1 button{
+        font-size: 13px;
+    }
+    .s13 .s13s1 h1{
+        font-size: 25px;
+    }
+}
+@media screen and (max-width:188px){
+    .s13 .s13s1 h1{
+        font-size: 22px;
+    }
+    .s13 #sa{
+        font-size: 25px;
+    }
+}
+
+/* End of b7*/
+
+
+.footer{
+    background-color: #e5e5e5;
+    height: auto;
+    width: 100%;
+    text-align: center;
+}
+.footer .zx{
+    margin: 0% auto;
+    text-align: center;
+    display: inline;
+}
+.footer .zx a{
+    color: cadetblue;
+    
+}
+.footer .zx a:first-child{
+    margin-right: 15px !important;
+}
+.footer .zx p{
+    font-size: 15px;
+    font-weight: lighter;
+    padding-top: 22px;
+}
+.footer .bre{
+    height: auto;
+    padding-bottom: 50px;
+    max-width: 176px;
+    margin: 0% auto;
+    word-break: break-all;
+}
+
+.footer .bre a{
+    color: #cc337a;
+    text-decoration-line: none;
+    border: none;
+}
+.footer .bre a:hover{
+    color: #053467;
+}
+@media screen and (max-width:289px){
+    .s13 #sa {
+        font-size: 24px;}
+}
+
+
+/********************************************************/
+/*End of Footer*/
